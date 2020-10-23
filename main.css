@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    background-color: black;
+    font-size: medium;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+    padding: 10px
+} 
+.box{
+    background-color: white;
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 10px;
+    width: 1200px
+}
+
+.container{
+    display: flex;
+    min-width: 10vh;
+    flex-direction: row;
+}
+.center-items > img,p {
+    display : block;
+    margin : auto ;
+  }
+
+.white_background{
+    background-color:white;
+    color: black;
+    flex-direction: row;
+}
+
+h1 {
+    background-color: white ;
+    color: black;
+    font-size: 60px;
+    font-family: 'Staatliches', cursive;
+    width:1200px;
+    justify-content: center;
+    justify-items: center;
+}
+.true_center{
+    justify-content: center;
+}
+h5 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.even_spacing{
+    display: flex;
+    justify-content: space-evenly;
+}
+.centre {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+.bridge_resize {
+    width: 62%;
+}
+.big_resize {
+    width: 100%;
+}
+
+img {
+    width: 30%;
+}
+
+.no_padding{
+    box-sizing: border-box;
+    padding: 0%;
+}
+.make_me_large {
+    color: white;
+    font-size: 30px;
+}
+
+.lake_resize {
+    width:31%;
+}
+
+.make_me_medium {
+        color: white;
+        font-size: 18px;
+}
+#opener1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif; 
+    box-sizing: border-box;
+    padding: 15px;
+}
